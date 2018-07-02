@@ -3,19 +3,24 @@
     margin:0 auto;
 }
 
-.camping{
-    float: right;
-}
-
-
 .content{
     width: 900px;
-    float: left;
 }
 
-
-
-
+header {
+    padding: 17px; 
+    background: #4aaaa5;
+    width: 180px;
+    text-align: center;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    border-bottom: solid 1px;
+    border-bottom-color: #cccccc; 
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: bold;
+}
 nav {
     background: #ffffff;
     height: 70px;
@@ -37,6 +42,5 @@ li {
 a {
     display: block;
     padding: 20px;
-   
     background-color: #ffffff;
 }

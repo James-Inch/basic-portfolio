@@ -1,11 +1,22 @@
 .wrapper {
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.content{
+.content {
     width: 900px;
 }
+
+.content div{
+    float: left;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 header {
     padding: 17px; 
@@ -43,4 +54,47 @@ a {
     display: block;
     padding: 20px;
     background-color: #ffffff;
+}
+
+.banner {
+    padding: 10px; 
+    background: #4aaaa5;
+    width: 181px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img1{
+    position: relative;
+}
+
+.img2{
+    position: relative;
+}
+
+.img3{
+    position: relative;
+}
+
+.img4{
+    position: relative;
+}
+
+.img5{
+    position: relative;
+}
+
+.img6{
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 86%;
+    left: 48%;
+    transform: translate(-50%, -50%);
 }
